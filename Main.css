@@ -229,38 +229,21 @@ p {
 	
 }
 
-/* footer */
-footer {
-	width: 100%;
-	bottom: 0px;
-	margin-bottom: auto;
-	margin-top: 0px;
-	position: relative;
-}
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8em;
-    margin-bottom: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
+/* donations page styles */
 .container {
-    padding-top: 195px;
+    padding-top: 245px;
     margin-top: 8em;
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
-    padding-left: 145px;
+    padding-left: 175px;
     padding-bottom: 195px;
     background-image: url(Assets/vintage.png);
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     color: rgba(49,25,8,1.00);
-    padding-right: 50px;
+    padding-right: 145px;
     background-size: cover;
     line-height: 35px;
     font-size: 1.2em;
@@ -283,4 +266,23 @@ iframe {
     margin-top: 55px;
     border-color: rgba(0,0,0,0.00);
 	
+}
+
+/* footer */
+footer {
+	width: 100%;
+	bottom: 0px;
+	margin-bottom: auto;
+	margin-top: 0px;
+	position: relative;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    margin-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
