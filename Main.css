@@ -265,9 +265,7 @@ p {
     padding-right: 145px;
     background-size: cover;
     line-height: 35px;
-    font-size: 1.2em;
-
-	
+    font-size: 1.2em;	
 }
 
 .btn {
@@ -353,6 +351,7 @@ iframe {
 	}
 	
 	
+	
 }
 @media only screen and (max-width: 800px){
 	
@@ -371,23 +370,12 @@ iframe {
 	}
 	.p1, .p2, .p3 {
 		width: 100%;
-    	font-size: 24px;
+    	font-size: 18px;
 		float: none;
 		position: static;
-		padding: 10px 10px 10px 0;
-	}
-	.bG-image1, .bG-image2, .bG-image3 {
-		width: 100%;  
-		height: auto; 
-		padding: 25px 0;
-		
-	}
-	.p1, .p2, .p3 {
-		width: 100%;
-    	font-size: 24px;
-		float: none;
-		position: static;
-		padding: 10px 10px 10px 0;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-bottom: 10px;
 	}
 	.bG-image1, .bG-image2, .bG-image3 {
 		width: 100%;  
@@ -401,6 +389,9 @@ iframe {
 	
 	.p2, .bg-image2 {
 		background-color: rgba(104,54,18,1.00);
+	}
+	footer {
+		width: 600px;
 	}
 
 
