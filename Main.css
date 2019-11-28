@@ -102,7 +102,7 @@ video {
 }
 .content {
     width: 1250px;
-	margin-top: 10em;
+    margin-top: 10em;
     margin-left: auto;
     margin-right: auto;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -232,21 +232,14 @@ p {
 }
 
 /* gallery styles */
-.gallery {
-    position: relative;
-    left: auto;
-    right: auto;
-}
 .stills {
     top: 0px;
     padding-right: auto;
-    margin-left: 1em;
-    margin-bottom: 2em;
     text-align: left;
     -webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.80);
-    box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.80);
-	
+    box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.80);	
 }
+
 
 
 /* donations page styles */
@@ -288,7 +281,8 @@ p {
 /* footer */
 footer {
 	width: 100%;
-	bottom: 0px;
+	bottom: 0;
+	left: 0;
 	margin-bottom: auto;
 	margin-top: 0px;
 	position: relative;
@@ -376,6 +370,8 @@ iframe {
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-bottom: 10px;
+		padding-right: 0;
+		right: 0;
 	}
 	.bG-image1, .bG-image2, .bG-image3 {
 		width: 100%;  
@@ -393,5 +389,3 @@ iframe {
 	footer {
 		display: none;
 	}
-
-

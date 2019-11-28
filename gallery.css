@@ -5,15 +5,24 @@ img  {
 }
 .slider_wrap {
 	position: relative;
+   
+
 }
 .thumbnail_slider_area {
-	position: relative;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	z-index: 50;
-	margin-top: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 50;
+    background-image: url("film_reel.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+	padding-top: 25px;
+    padding-bottom: 25px;
 }
 .thumbnail_slider img {
-	border: 3px solid rgba(255,255,240,1.00);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 12px solid black;
+    border-right: 13px solid black;  	
 }
