@@ -391,7 +391,7 @@ iframe {
 		background-color: rgba(104,54,18,1.00);
 	}
 	footer {
-		width: 600px;
+		display: none;
 	}
 
 
