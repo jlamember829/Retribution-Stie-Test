@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+img  {
+	max-width: 100%;
+}
+.slider_wrap {
+	position: relative;
+}
+.thumbnail_slider_area {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 50;
+	margin-top: 0;
+}
+.thumbnail_slider img {
+	border: 3px solid rgba(255,255,240,1.00);
+}
