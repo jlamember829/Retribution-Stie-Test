@@ -114,13 +114,13 @@ label {
 	right: -50px;
 	z-index: -1;
 }
-}
+
 
 /* VIDEO BACKGROUND */
 
 video {
     bottom: 0;
-	right: 0;
+    right: 0;
     z-index: -100;
     position: fixed;
     min-width: 100%;
@@ -265,7 +265,7 @@ p {
 	clear: both;
 }
  /*trailer styles */	
-iframe {
+.trailer {
     display: block;
     margin-left: auto;
     margin-right: auto;
