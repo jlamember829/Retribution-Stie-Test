@@ -551,10 +551,7 @@ footer {
 	}
 
 	footer {
-		position: absolute;
-		padding-bottom: 0px;
-		margin-bottom: 0px;
-		bottom: 0px;
+		display: none;
 	}
 	
 }
