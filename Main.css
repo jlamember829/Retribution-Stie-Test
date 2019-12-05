@@ -551,9 +551,10 @@ footer {
 	}
 
 	footer {
-		position: relative;
-		bottom: 0;
-		left: 0;
+		position: absolute;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		bottom: 0px;
 	}
 	
 }
