@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Submitted | Retribution</title>
+	<link href="Main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="main">
+	<header>
+		<nav>
+			<img src="websiteLogo2.png" alt="Retribution logo" height="42" class="logo">
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+				<a href="index.html" class="button">Home</a>   
+				<a href="Trailers.html" class="button">Trailers</a>			
+				<a href="Gallery.html" class="button">Gallery</a>
+				<a href="Cast.html" class="button">Cast & Crew</a>
+				<a href="Donations.html" class="selected">Donations</a>
+			</div>	
+		</nav>
+	</header>
+	<img src="Assets/rope_PNG18104.png" height="1000" class="noose" alt="">
+	<img src="Assets/pictures-of-sheriff-badges-147597-6883195.png" height="600" class="star" alt="">
+	<img src="Assets/gun.png" height="400" class="gun" alt="">
+	<div class="results">
+		<h1 class="thanks">Thanks! You have been added to our mailing list</h1>
+		<h2 class="submitted">Your info was submitted as:</h2>
+		<script>
+			var formData = location.search;
+			formData = formData.substring(1, formData.length);
+			while (formData.indexOf("+") !== -1) {
+			  formData = formData.replace("+", " ");
+			}
+			formData = decodeURIComponent(formData);
+			var formArray = formData.split("&");
+			for (var i = 0; i < formArray.length; i = i + 1) {
+			  document.write("<p>" + formArray[i] + "</p>");
+			}
+		</script>
+		<p></p>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br>
+	<footer>
+		<img src="Assets/archlight-website bottom-image.jpg" id="responsive-image" alt="Archlight Footer">
+	</footer>
+</body>
+</html>

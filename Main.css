@@ -10,6 +10,17 @@
     background-attachment: fixed;
     background-size: cover;
 }
+p {
+	width: 1000px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: lighter;
+	color: rgba(104,54,18,1.00);
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
 
 /* NAV BAR */
 
@@ -357,6 +368,12 @@ a {
 }
 
 /* donations page styles */
+.link {
+	color: rgb(250,250,240);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: normal;
+	
+}
 .donations {
 	width: 700px;
 	margin-top: 300px;
@@ -369,7 +386,7 @@ a {
     font-weight: lighter;
 }
 .container {
-    padding-top: 245px;
+    padding-top: 325px;
     margin-top: 8em;
     margin-bottom: 80px;
     margin-left: auto;
@@ -385,26 +402,68 @@ a {
     line-height: 35px;
     font-size: 1.2em;	
 }
-
+input {
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.radio {
+	width: 30%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.description {
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
 .btn {
     border-radius: 10px;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-size: 1em;
     text-align: center;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
     background-color: rgba(104,54,18,1.00);
     color: rgba(219,168,114,1.00);
-    margin-left: 180px;
-    margin-top: 55px;
     border-color: rgba(0,0,0,0.00);	
 }
-.form-check-label {
-	color: rgba(219,168,114,1.00);
-	z-index: 100;
+
+/* results page */
+.results {
+	width: 1000px;
+	background-color: burlywood;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 0px;
+	margin-top: 200px;
+	padding-bottom: 100px;
+	border: 3px solid rgb(250,250,240);
+	border-radius: 25px;
+	
 }
+.thanks {
+	width: 1o00px;
+	padding-top: 85px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: lighter;
+	color: rgba(104,54,18,1.00);
+	font-size: 48px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+.submitted {
+	width: 1000px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: lighter;
+	color: rgba(104,54,18,1.00);
+	font-size: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 
 /* footer */
 footer {
@@ -481,12 +540,36 @@ footer {
 		margin-right: 20px;
 	}
 	
+	/* donations responsive */
+	.results {
+		width: 600px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.thanks, .submitted {
+		width: 600px;
+	}
+
+	footer {
+		position: relative;
+		bottom: 0;
+		left: 0;
+	}
 	
 }
 @media only screen and (max-width: 800px){
 	
 	video {
 		display: none;
+	}
+	.star {
+		width: 75%;
+		height: auto;
+	}
+	.gun {
+    width: 80%;
+    height: auto;
+    bottom: 50px;
 	}
 	.mobile-banner { /*only used for mobile version */ 
 	 	opacity: 1.0;
@@ -538,6 +621,34 @@ footer {
 		width: 100%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.donations {
+		width: 400px;
+		margin-top: 80px;
+		font-size: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.container {
+		width: 400px;
+		padding-top: 10px;
+		background-image: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-left: 50px;
+	}
+	.description {
+		color: rgba(255,255,240,1.00);
+	}
+	.results {
+		width: 400px;		
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.thanks, .submitted {
+		width: 400px;
+		font-size: 24px;
 	}
 	
 	footer {
