@@ -25,7 +25,6 @@ p {
 /* NAV BAR */
 
 .button {
-    color: #A4977E;
     background-size: 5em auto;
     background-repeat: no-repeat;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -153,7 +152,7 @@ video {
 }
 
 /* main content */
-#responsive-image {  
+.responsive-image {  
 	width: 100%;  
 	height: auto; 
 }
@@ -242,8 +241,6 @@ p {
     line-height: 2em;
     font-size: 1.285em;
     background-color: rgba(104,54,18,.75);
-    padding-top: 1em;
-    padding-bottom: 1.2em;
     z-index: 5;
     float: right;
     padding-top: 116px;
@@ -453,7 +450,7 @@ input {
 	
 }
 .thanks {
-	width: 1o00px;
+	width: 1000px;
 	padding-top: 85px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-weight: lighter;
@@ -483,9 +480,53 @@ footer {
 	margin-bottom: auto;
 	margin-top: 0px;
 	position: relative;
+}.nav1 {
+	position: absolute;
+	color: rgba(255,255,240,1.00);
+	right: 350px;
+	bottom: 10em;
+}
+.nav1 a {
+	color: rgba(250,212,4,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+	line-height: 48px;
 }
 
+.nav2 {
+	position: absolute;
+	color: rgba(250,212,4,1.00);
+	right: 225px;
+	bottom: 10em;
+}
+.nav2 a {
+	color: rgba(250,212,4,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+	line-height: 48px;
+}
+.nav3 {
+	margin-right: 10px;
+	position: absolute;
+	color: rgba(250,212,4,1.00);
+	right: 225px;
+	bottom: 3em;
+}
+.nav1 a:hover {
+	color: white;
+}
+.nav2 a:hover {
+	color: white;
+}
 
+@media only screen and (max-width: 1500px) {
+	.nav1, .nav2 {
+		bottom: 4em;
+	}
+	.nav3 {
+		bottom: 1em;
+	}
+}
 
 /* responsive features */
 @media only screen and (max-width: 1100px) {
@@ -601,10 +642,10 @@ footer {
 		position: static;
 	}
 	.social {
-		right:320px;
+		display: none;
 	}
 	.social2 {
-		right:250px;
+		display: none;
 	}
 	.content {
    	 	width: 100%;
