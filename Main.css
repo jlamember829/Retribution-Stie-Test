@@ -125,7 +125,17 @@ label {
 	right: -50px;
 	z-index: -1;
 }
-
+.social, .social2 {
+	right: 0;
+	position: fixed;
+	z-index: 3;
+}
+.social {
+	top: 100px;
+}
+.social2 {
+	top:175px;
+}
 
 /* VIDEO BACKGROUND */
 
@@ -496,6 +506,17 @@ footer {
 	#toggle:checked + .menu {
 		display: block;
 	}
+	.social, .social2 {
+		top: 0;	
+		position: fixed;
+		z-index:1000;
+	}
+	.social {
+		right:370px;
+	}
+	.social2 {
+		right:300px;
+	}
 	.content {
 		width: 800px;
 	}
@@ -551,7 +572,11 @@ footer {
 	}
 
 	footer {
-		display: none;
+		position: absolute;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		bottom: 0px;
+		left: 0px;
 	}
 	
 }
@@ -574,6 +599,12 @@ footer {
 		margin-top: 60px;
 		min-width: 100%;
 		position: static;
+	}
+	.social {
+		right:320px;
+	}
+	.social2 {
+		right:250px;
 	}
 	.content {
    	 	width: 100%;
