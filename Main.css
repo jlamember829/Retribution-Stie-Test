@@ -521,10 +521,16 @@ footer {
 
 @media only screen and (max-width: 1500px) {
 	.nav1, .nav2 {
-		bottom: 4em;
+		bottom: 5em;
 	}
 	.nav3 {
 		bottom: 1em;
+	}
+	.nav1 a {
+		line-height: 30px;
+	}
+	.nav2 a {
+		line-height: 30px;
 	}
 }
 
@@ -628,9 +634,9 @@ footer {
 		height: auto;
 	}
 	.gun {
-		width: 80%;
-		height: auto;
-		bottom: 50px;
+    width: 80%;
+    height: auto;
+    bottom: 50px;
 	}
 	.social {
 		display: none;
@@ -644,7 +650,7 @@ footer {
 	}
 	.p1, .p2, .p3 {
 		width: 100%;
-    		font-size: 18px;
+    	font-size: 18px;
 		float: none;
 		position: static;
 		padding-top: 10px;
@@ -671,9 +677,10 @@ footer {
 	}
 	iframe{
 		margin-top: 5em;
-    		margin-bottom: 0em;
+    	margin-bottom: 0em;
 		width: 500px;
-		height: 281px;		
+		height: 281px;
+		
 	}
 	.crew {
 		padding-top: 0px;
@@ -691,6 +698,7 @@ footer {
 	}
 	.container {
 		width: 400px;
+		padding-top: 10px;
 		background-image: none;
 		margin-left: auto;
 		margin-right: auto;
